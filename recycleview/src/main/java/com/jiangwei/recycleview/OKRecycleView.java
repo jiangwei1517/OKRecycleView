@@ -1,6 +1,8 @@
-package com.okrecycleview.luffy.recycleview;
+package com.jiangwei.recycleview;
 
 import java.util.ArrayList;
+
+import com.okrecycleview.luffy.recycleview.R;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -20,7 +22,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 /**
- * author: jiangwei18 on 17/4/9 15:45 email: jiangwei18@baidu.com Hi: jwill金牛
+ * author: jiangwei18 on 17/4/9 15:45 
  */
 
 public class OKRecycleView extends RecyclerView {

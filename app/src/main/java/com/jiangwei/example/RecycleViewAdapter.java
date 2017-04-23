@@ -1,6 +1,8 @@
-package com.okrecycleview.luffy.okrecycleview;
+package com.jiangwei.example;
 
 import java.util.ArrayList;
+
+import com.okrecycleview.luffy.okrecycleview.R;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;

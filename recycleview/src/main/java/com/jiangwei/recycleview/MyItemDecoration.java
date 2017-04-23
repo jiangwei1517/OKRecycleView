@@ -1,4 +1,6 @@
-package com.okrecycleview.luffy.recycleview;
+package com.jiangwei.recycleview;
+
+import com.okrecycleview.luffy.recycleview.R;
 
 import android.content.Context;
 import android.graphics.Rect;
@@ -7,8 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 /**
- * Created by idisfkj on 16/7/2.
- * Email : idisfkj@qq.com.
+ * Created by jiangwei18 on 16/7/2.
  */
 public class MyItemDecoration extends RecyclerView.ItemDecoration {
 

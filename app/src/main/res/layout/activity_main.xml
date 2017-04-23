@@ -3,13 +3,13 @@
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                tools:context=".MainActivity">
+                tools:context="com.jiangwei.example.MainActivity">
 
-  <com.okrecycleview.luffy.recycleview.OKRecycleView
+  <com.jiangwei.recycleview.OKRecycleView
     android:id="@+id/okrecycle"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-  </com.okrecycleview.luffy.recycleview.OKRecycleView>
+  </com.jiangwei.recycleview.OKRecycleView>
 
 </RelativeLayout>

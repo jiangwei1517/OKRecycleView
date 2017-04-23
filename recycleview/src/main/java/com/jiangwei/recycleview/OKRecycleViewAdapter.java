@@ -1,7 +1,7 @@
-package com.okrecycleview.luffy.recycleview;
+package com.jiangwei.recycleview;
 
-import static com.okrecycleview.luffy.recycleview.OKRecycleView.FOOT_VIEW_TYPE;
-import static com.okrecycleview.luffy.recycleview.OKRecycleView.HEAD_VIEW_TYPE;
+import static com.jiangwei.recycleview.OKRecycleView.FOOT_VIEW_TYPE;
+import static com.jiangwei.recycleview.OKRecycleView.HEAD_VIEW_TYPE;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 /**
- * author: jiangwei18 on 17/4/9 15:49 email: jiangwei18@baidu.com Hi: jwill金牛
+ * author: jiangwei18 on 17/4/9 15:49
  */
 
 public class OKRecycleViewAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {

@@ -1,16 +1,15 @@
-package com.okrecycleview.luffy.okrecycleview;
+package com.jiangwei.example;
 
 import java.util.ArrayList;
 
-import com.okrecycleview.luffy.recycleview.MyItemDecoration;
-import com.okrecycleview.luffy.recycleview.OKRecycleView;
+import com.jiangwei.recycleview.MyItemDecoration;
+import com.jiangwei.recycleview.OKRecycleView;
+import com.okrecycleview.luffy.okrecycleview.R;
 
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.OrientationHelper;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
@@ -25,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mOKRecycleView = (OKRecycleView) findViewById(R.id.okrecycle);
-//         mOKRecycleView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
-//         mOKRecycleView.setLayoutManager(new GridLayoutManager(MainActivity.this, 3));
+        // mOKRecycleView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
+        // mOKRecycleView.setLayoutManager(new GridLayoutManager(MainActivity.this, 3));
         mOKRecycleView.setLayoutManager(new StaggeredGridLayoutManager(2, OrientationHelper.VERTICAL));
         // mOKRecycleView.setCanRefresh(false);
         // mOKRecycleView.setCanLoadMore(false);
